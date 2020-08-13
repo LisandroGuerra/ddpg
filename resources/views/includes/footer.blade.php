@@ -28,7 +28,7 @@
                 data-toggle="popover"
                 data-placement="top"
                 data-content="Informações">
-            <i class="fas fa-info-circle"></i>
+            <i class="fa fa-info-circle"></i>
             Info
         </button>
 
@@ -42,7 +42,7 @@
                 data-toggle="popover"
                 data-placement="top"
                 data-content="Texto sobre ajuda">
-            <i class="far fa-question-circle"></i>
+            <i class="fas fa-question-circle"></i>
             Ajuda
         </button>
     </div>

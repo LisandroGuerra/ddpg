@@ -10,7 +10,9 @@
 
     <!-- Font Awesome -->
     {{--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">--}}
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    {{--<link rel="stylesheet" href="css/font-awesome.min.css">--}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
 
     <title>{{env('APP_NAME')}}</title>
 </head>
@@ -20,8 +22,6 @@
         @include('includes.header')
         <div class="content-wrapper">
             <section class="content">
-
-                Conteúdo</br>
 
                 @yield('content')
 

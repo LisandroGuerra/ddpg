@@ -21,6 +21,9 @@
         background-color: #00314D !important;
         padding: 0;
     }
+    .nav-item {
+        margin-left: 0.5rem;
+    }
     a.nav-link {
         margin: 0;
         padding: 0.2rem;
@@ -52,6 +55,16 @@
     .navbar-toggler-icon {
         color: white !important;
     }
+
+    /* ============ auto open desktop view ============ */
+    @media all and (min-width: 768px) {
+        .navbar .nav-item .dropdown-menu{ display: none; }
+        .navbar .nav-item:hover .nav-link{ color: #FFF;  }
+        .navbar .nav-item:hover .dropdown-menu{ display: block; }
+        .navbar .nav-item .dropdown-menu{ margin-top:0; }
+    }
+    /* ============ auto open desktop view .end// ============ */
+
 </style>
 <header>
     <nav class="d-none d-md-block navbar navbar-light bg-light nav-logo">
@@ -61,6 +74,7 @@
                 {{env('APP_NAME')}}
             </a>
             <a href="#" class="navbar-login">
+                <i class="fas fa-sign-in-alt"></i>
                 Entrar
             </a>
         </div>
