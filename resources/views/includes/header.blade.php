@@ -106,7 +106,7 @@
                         Designação
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Designar</a>
+                        <a class="dropdown-item" href="./designar">Designar</a>
                         <a class="dropdown-item" href="#">Análise DIVAT</a>
                         <a class="dropdown-item" href="#">Análise DIRAT</a>
                     </div>
