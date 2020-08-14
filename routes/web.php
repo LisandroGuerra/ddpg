@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('home');
 });
+
+
+Route::get('/designar', 'DesignationController@create');
+//Route::post('/designar', 'DesignationController@store');
+//
+//Route::get('/designar/analise', 'DesignationController@analyze');
+//
+//Route::get('/desligar', 'ResignationController@destroy');
+//Route::get('/desligar/analise', 'ResignationController@analyze');
