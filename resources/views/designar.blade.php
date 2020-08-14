@@ -37,7 +37,6 @@ Designar
             <option>SR-II</option>
             <option>SR-III</option>
             <option>SR-V</option>
-            <option>SR-V</option>
         </select>
     </diV>
     <div class="form-group row">

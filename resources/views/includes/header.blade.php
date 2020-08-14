@@ -69,7 +69,7 @@
 <header>
     <nav class="d-none d-md-block navbar navbar-light bg-light nav-logo">
         <div class="d-flex justify-content-between align-items-center">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./">
                 <img src="assets/images/large2_30.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
                 {{env('APP_NAME')}}
             </a>
@@ -82,7 +82,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark nav-menu">
         <div class="d-md-none">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./">
                 <img src="assets/images/large2_30.png" width="30" height="30" class="img-menu d-inline-block align-top" alt="" loading="lazy">
                 {{env('APP_NAME')}}
             </a>
@@ -117,7 +117,7 @@
                         Desligamento
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Desligar</a>
+                        <a class="dropdown-item" href="./desligar">Desligar</a>
                         <a class="dropdown-item" href="#">Análise DIVAT</a>
                         <a class="dropdown-item" href="#">Análise DIRAT</a>
                     </div>
