@@ -30,9 +30,9 @@ Designar
         </div>
     </div>
     <div class="form-group row">
-        <label for="desig_super">Superintendência</label>
-        <select id="desig_super" class="form-control">
-            <option selected>Selecione...</option>
+        <label for="desig_super" hidden>Superintendência</label>
+        <select id="desig_super" class="custom-select">
+            <option selected>Superintendência</option>
             <option>SR-I</option>
             <option>SR-II</option>
             <option>SR-III</option>
@@ -40,9 +40,9 @@ Designar
         </select>
     </diV>
     <div class="form-group row">
-        <label for="desig_program">State</label>
-        <select id="desig_program" class="form-control">
-            <option selected>Selecione...</option>
+        <label for="desig_program" hidden>Programa</label>
+        <select id="desig_program" class="custom-select">
+            <option selected>Programa</option>
             <option>CEAB DJ</option>
             <option>CEAB MAN</option>
             <option>CEAB RD</option>
@@ -51,7 +51,7 @@ Designar
 
     <div class="form-group row">
         <div class="col-sm-10">
-            <button type="submit" class="btn btn-primary">Solicitar</button>
+            <button type="submit" class="btn btn-outline-primary">Solicitar</button>
         </div>
     </div>
 </form>

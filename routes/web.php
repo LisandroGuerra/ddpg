@@ -15,11 +15,14 @@ Route::get('/', function () {
     return view('home');
 });
 
-
+// Designation Routes
 Route::get('/designar', 'DesignationController@create');
 //Route::post('/designar', 'DesignationController@store');
 //
 //Route::get('/designar/analise', 'DesignationController@analyze');
-//
-//Route::get('/desligar', 'ResignationController@destroy');
+
+
+// Resignation Routes
+Route::get('/desligar', 'ResignationController@index');
+//Route::delete('/desligar', 'ResignationController@destroy');
 //Route::get('/desligar/analise', 'ResignationController@analyze');
