@@ -23,8 +23,8 @@ Route::get('/designar', 'DesignationController@create');
 
 
 // Resignation Routes
-Route::get('/desligar', 'ResignationController@index');
-//Route::delete('/desligar', 'ResignationController@destroy');
+Route::get('/desligar', 'ResignationController@edit');
+//Route::delete('/desligar', 'ResignationController@update');
 //Route::get('/desligar/analise', 'ResignationController@analyze');
 
 
