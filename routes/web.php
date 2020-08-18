@@ -26,3 +26,10 @@ Route::get('/designar', 'DesignationController@create');
 Route::get('/desligar', 'ResignationController@index');
 //Route::delete('/desligar', 'ResignationController@destroy');
 //Route::get('/desligar/analise', 'ResignationController@analyze');
+
+
+// Retification Routes
+Route::get('/retificar', 'RetificationController@edit');
+//Route::post('/retificar', 'DesignationController@update');
+//
+//Route::get('/retificar/analise', 'DesignationController@analyze');
