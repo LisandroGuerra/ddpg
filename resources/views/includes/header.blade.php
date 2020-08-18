@@ -128,7 +128,7 @@
                         Retificação
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Retificar</a>
+                        <a class="dropdown-item" href="./retificar">Retificar</a>
                         <a class="dropdown-item" href="#">Análise DIVAT</a>
                         <a class="dropdown-item" href="#">Análise DIRAT</a>
                     </div>
