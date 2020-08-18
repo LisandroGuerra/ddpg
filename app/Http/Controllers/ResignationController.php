@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ResignationController extends Controller
 {
-    public function index ()
+    public function edit ()
     {
         return view('desligar');
     }
