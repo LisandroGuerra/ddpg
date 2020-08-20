@@ -15,7 +15,7 @@
 <div class="card border-secondary mt-3">
     <div class="card-body">
         <h4 class="card-title card-header text-muted text-center mb-3">Designar</h4>
-        <form>
+        <form class="form-group">
             <div class="form-group row">
                 <label for="desig_siape" class="col-sm-2 col-form-label" hidden>SIAPE</label>
                 <div class="col-sm-12 d-flex justify-content-center">
