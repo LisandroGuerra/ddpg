@@ -32,28 +32,32 @@
         transition: 0.4s;
     }
     a.nav-link:hover {
-        background-color: #FFF;
-        color: #1B1E21 !important;
+        background-color: #1b5589;
+        /*color: #FFF !important;*/
+        /*color: #1B1E21 !important;*/
     }
     div.dropdown-menu {
         margin: 0;
         padding: 0;
         min-width: 8rem;
+        background-color: #00314D !important;
     }
     a.dropdown-item {
         margin: 0;
         padding: 0 0.5rem;
-        color: #1B1E21 !important;
+        /*color: #1B1E21 !important;*/
+        color: #FFF !important;
         font-size: 0.8rem;
         transition: 0.4s;
     }
     a.dropdown-item:hover {
-        background-color: #00314D !important;
-        color: #FFF !important;
+        background-color: #1b5589 !important;
+        /*background-color: #00314D !important;*/
+        /*color: #FFF !important;*/
     }
 
     .navbar-toggler-icon {
-        color: white !important;
+        /*color: white !important;*/
     }
 
     /* ============ auto open desktop view ============ */
