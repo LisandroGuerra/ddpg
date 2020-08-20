@@ -34,7 +34,7 @@
                 </div>
                 <div class="form-group row">
                     <div class="col-sm-12 d-flex justify-content-center">
-                        <button type="submit" class="btn btn-outline-primary btn-block">Solicitar</button>
+                        <button type="submit" class="btn btn-outline-primary btn-block btn-lg">Solicitar</button>
                     </div>
                 </div>
             </form>

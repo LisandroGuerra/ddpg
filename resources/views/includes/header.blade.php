@@ -26,9 +26,9 @@
     }
     a.nav-link {
         margin: 0;
-        padding: 0.2rem;
+        padding: 0.8rem;
         color: #FFF !important;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         transition: 0.4s;
     }
     a.nav-link:hover {
@@ -44,10 +44,10 @@
     }
     a.dropdown-item {
         margin: 0;
-        padding: 0 0.5rem;
+        /*padding: 0 0.5rem;*/
         /*color: #1B1E21 !important;*/
         color: #FFF !important;
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         transition: 0.4s;
     }
     a.dropdown-item:hover {
@@ -66,6 +66,16 @@
         .navbar .nav-item:hover .nav-link{ color: #FFF;  }
         .navbar .nav-item:hover .dropdown-menu{ display: block; }
         .navbar .nav-item .dropdown-menu{ margin-top:0; }
+
+        a.nav-link {
+            margin: 0;
+            padding: 0.4rem;
+            font-size: 0.8rem;
+        }
+        a.dropdown-item {
+            margin: 0;
+            font-size: 0.8rem;
+        }
     }
     /* ============ auto open desktop view .end// ============ */
 
