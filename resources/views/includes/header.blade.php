@@ -44,6 +44,7 @@
     }
     a.dropdown-item {
         margin: 0;
+        padding: 0.8rem;
         /*padding: 0 0.5rem;*/
         /*color: #1B1E21 !important;*/
         color: #FFF !important;
@@ -74,6 +75,7 @@
         }
         a.dropdown-item {
             margin: 0;
+            padding: 0.4rem;
             font-size: 0.8rem;
         }
     }
