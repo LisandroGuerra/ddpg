@@ -18,7 +18,7 @@
         margin: 0.5rem;
     }
     .nav-menu {
-        background-color: #00314D !important;
+        background-color: #002133 !important;
         padding: 0;
     }
     .nav-item {
@@ -61,12 +61,14 @@
         /*color: white !important;*/
     }
 
-    /* ============ auto open desktop view ============ */
+
     @media all and (min-width: 768px) {
+        /* ============ auto open desktop view ============ */
         .navbar .nav-item .dropdown-menu{ display: none; }
         .navbar .nav-item:hover .nav-link{ color: #FFF;  }
         .navbar .nav-item:hover .dropdown-menu{ display: block; }
         .navbar .nav-item .dropdown-menu{ margin-top:0; }
+        /* ============ auto open desktop view .end// ============ */
 
         a.nav-link {
             margin: 0;
@@ -78,8 +80,12 @@
             padding: 0.4rem;
             font-size: 0.8rem;
         }
+        .nav-menu {
+            background-color: #00314D !important;
+            padding: 0;
+        }
     }
-    /* ============ auto open desktop view .end// ============ */
+
 
 </style>
 <header>

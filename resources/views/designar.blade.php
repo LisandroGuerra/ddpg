@@ -19,7 +19,7 @@
             <div class="form-group row">
                 <label for="desig_siape" class="col-sm-2 col-form-label" hidden>SIAPE</label>
                 <div class="col-sm-12 d-flex justify-content-center">
-                    <input class="form-control-lg" type="text" id="desig_siape" placeholder="Matrícula SIAPE">
+                    <input class="form-control-lg" inputmode="numeric" type="text" id="desig_siape" placeholder="Matrícula SIAPE">
                 </div>
             </div>
             <div class="card m-3">
