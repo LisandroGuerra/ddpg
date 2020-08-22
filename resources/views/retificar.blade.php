@@ -49,11 +49,12 @@
                     <option>CEAB DJ</option>
                     <option>CEAB MAN</option>
                     <option>CEAB RD</option>
+                    <option>PGSP</option>
                 </select>
             </div>
 
             <div class="form-group row">
-                <div class="col-sm-10 d-flex justify-content-center">
+                <div class="col-sm-12 d-flex justify-content-center">
                     <button type="submit" class="btn btn-outline-primary btn-block btn-lg">Solicitar</button>
                 </div>
             </div>
