@@ -19,7 +19,7 @@
             <div class="form-group row">
                 <label for="rect_siape" class="col-sm-2 col-form-label" hidden>SIAPE</label>
                 <div class="col-sm-12 d-flex justify-content-center">
-                    <input type="text" inputmode="numeric" id="rect_siape" placeholder="Matrícula SIAPE">
+                    <input class="col-form-label-lg" type="text" inputmode="numeric" id="rect_siape" placeholder="Matrícula SIAPE">
                 </div>
             </div>
             <div class="card m-3">
@@ -34,7 +34,7 @@
             </div>
             <div class="form-group row">
                 <label for="rect_super" hidden>Superintendência</label>
-                <select id="rect_super" class="custom-select ml-3 mr-3">
+                <select id="rect_super" class="custom-select custom-select-lg ml-3 mr-3">
                     <option selected>Superintendência</option>
                     <option>SR-I</option>
                     <option>SR-II</option>
@@ -44,7 +44,7 @@
             </diV>
             <div class="form-group row">
                 <label for="rect_program" hidden>Programa</label>
-                <select id="rect_program" class="custom-select ml-3 mr-3">
+                <select id="rect_program" class="custom-select custom-select-lg ml-3 mr-3">
                     <option selected>Programa</option>
                     <option>CEAB DJ</option>
                     <option>CEAB MAN</option>
