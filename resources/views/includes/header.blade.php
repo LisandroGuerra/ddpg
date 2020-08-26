@@ -129,8 +129,8 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="./designar">Designar</a>
-                        <a class="dropdown-item" href="#">Análise DIVAT</a>
-                        <a class="dropdown-item" href="#">Análise DIRAT</a>
+                        <a class="dropdown-item" href="#">DIVAT-Homologar</a>
+                        <a class="dropdown-item" href="#">DIRAT-Homologar</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -140,8 +140,8 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="./desligar">Desligar</a>
-                        <a class="dropdown-item" href="#">Análise DIVAT</a>
-                        <a class="dropdown-item" href="#">Análise DIRAT</a>
+                        <a class="dropdown-item" href="#">DIVAT-Homologar</a>
+                        <a class="dropdown-item" href="#">DIRAT-Homologar</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -151,8 +151,8 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="./retificar">Retificar</a>
-                        <a class="dropdown-item" href="#">Análise DIVAT</a>
-                        <a class="dropdown-item" href="#">Análise DIRAT</a>
+                        <a class="dropdown-item" href="#">DIVAT-Homologar</a>
+                        <a class="dropdown-item" href="#">DIRAT-Homologar</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
