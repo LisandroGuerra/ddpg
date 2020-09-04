@@ -15,7 +15,7 @@ class CreateCentralsTable extends Migration
     {
         Schema::create('centrals', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('central'. 10);
+            $table->string('central', 10);
             $table->boolean('active')->default(true);
             $table->string('changed_by', 10)->nullable();
             $table->timestamps();
