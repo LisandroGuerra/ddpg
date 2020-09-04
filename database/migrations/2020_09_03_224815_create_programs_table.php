@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateCentralsTable extends Migration
+class CreateProgramsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class CreateCentralsTable extends Migration
      */
     public function up()
     {
-        Schema::create('centrals', function (Blueprint $table) {
-            $table->increments('id')->autoIncrement();
-            $table->string('central');
+        Schema::create('programs', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('central'. 10);
             $table->boolean('active')->default(true);
-            $table->string('changed_by')->nullable();
+            $table->string('changed_by', 10)->nullable();
             $table->timestamps();
         });
     }
@@ -29,6 +29,6 @@ class CreateCentralsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('centrals');
+        Schema::dropIfExists('programs');
     }
 }
