@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateTableCentrals extends Migration
+class CreateCentralsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateTableCentrals extends Migration
      */
     public function up()
     {
-        Schema::create('table_centrals', function (Blueprint $table) {
+        Schema::create('centrals', function (Blueprint $table) {
             $table->increments('id')->autoIncrement();
             $table->string('central');
             $table->boolean('active')->default(true);
@@ -29,6 +29,6 @@ class CreateTableCentrals extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('table_centrals');
+        Schema::dropIfExists('centrals');
     }
 }
