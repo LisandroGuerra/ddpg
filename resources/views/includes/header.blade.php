@@ -161,7 +161,7 @@
                         Relatórios
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Relatório Designados</a>
+                        <a class="dropdown-item" href="./relatorio">Relatório Designados</a>
                         <a class="dropdown-item" href="#">Relatório BMOB</a>
                     </div>
                 </li>

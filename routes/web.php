@@ -34,3 +34,6 @@ Route::get('/retificar', 'RetificationController@edit');
 //Route::post('/retificar', 'DesignationController@update');
 //
 //Route::get('/retificar/analise', 'DesignationController@analyze');
+
+// Reports Routes
+Route::get('/relatorio', 'ReportsController@index');
