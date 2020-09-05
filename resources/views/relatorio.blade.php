@@ -1,4 +1,8 @@
 <style>
+    .report {
+        max-width: 95%;
+        margin: auto;
+    }
     table {
         font-size: 0.7rem;
     }
@@ -7,7 +11,7 @@
 @extends('master.master')
 
 @section('content')
-
+<div class="report">
     <div class="d-flex justify-content-between align-items-center">
         <h1>Relatório</h1>
         <span>
@@ -47,4 +51,5 @@
         @endforeach
         </tbody>
     </table>
+</div>
 @endsection
