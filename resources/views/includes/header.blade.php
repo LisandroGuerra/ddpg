@@ -32,7 +32,7 @@
         transition: 0.4s;
     }
     a.nav-link:hover {
-        background-color: #1b5589;
+        background-color: #1B5589;
         /*color: #FFF !important;*/
         /*color: #1B1E21 !important;*/
     }
