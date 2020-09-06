@@ -7,17 +7,19 @@
     .nav-menu button {
         color: #FFF !important;
     }
-    img.img-menu {
-        margin-left: 1rem;
-    }
+    /*img.img-menu {*/
+    /*    !*margin-left: 1rem;*!*/
+    /*}*/
     a.navbar-login {
+        margin-right: 0.8rem;
         font-size: 0.8rem;
         text-decoration: none;
     }
     button.navbar-toggler {
-        margin: 0.5rem;
+        margin: 0.8rem;
     }
-    .nav-menu {
+    .nav-menu,
+    .navbar {
         background-color: #002133 !important;
         padding: 0;
     }
@@ -92,8 +94,8 @@
     <nav class="d-none d-md-block navbar navbar-light bg-light nav-logo">
         <div class="d-flex justify-content-between align-items-center">
             <a class="navbar-brand" href="./">
-                <img src="assets/images/large2_30.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-                {{env('APP_NAME')}}
+                <img src="assets/images/logo.svg"  height="60" class="d-inline-block align-top" alt="" loading="lazy">
+{{--                {{env('APP_NAME')}}--}}
             </a>
             <a href="#" class="navbar-login">
                 <i class="fas fa-sign-in-alt"></i>
@@ -105,8 +107,8 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark nav-menu">
         <div class="d-md-none">
             <a class="navbar-brand" href="./">
-                <img src="assets/images/large2_30.png" width="30" height="30" class="img-menu d-inline-block align-top" alt="" loading="lazy">
-                {{env('APP_NAME')}}
+                <img src="assets/images/logo.svg" height="60" class="img-menu d-inline-block align-top" alt="" loading="lazy">
+{{--                {{env('APP_NAME')}}--}}
             </a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
