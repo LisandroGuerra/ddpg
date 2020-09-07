@@ -15,7 +15,7 @@ class CreateSpeciesTable extends Migration
     {
         Schema::create('species', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('specie', 5);
+            $table->string('name', 5);
             $table->boolean('active')->default(true);
             $table->string('changed_by', 10)->nullable();
             $table->timestamps();
