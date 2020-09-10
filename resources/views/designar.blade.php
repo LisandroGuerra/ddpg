@@ -37,7 +37,7 @@
                 <div class="form-group row">
                     <label for="desig_super" hidden>Superintendência</label>
                     <select id="desig_super" class="custom-select custom-select-lg ml-3 mr-3">
-                        <option selected disabled value="">Superintendência</option>
+                        <option selected disabled hidden>Superintendência</option>
                         @foreach($centrals as $central)
                             <option>{{$central->name}}</option>
                         @endforeach
@@ -46,7 +46,7 @@
                 <div class="form-group row">
                     <label for="desig_program" hidden>Programa</label>
                     <select id="desig_program" class="custom-select custom-select-lg ml-3 mr-3">
-                        <option selected disabled value="">Programa</option>
+                        <option selected disabled hidden>Programa</option>
                         @foreach($programs as $program)
                             <option>{{$program->name}}</option>
                         @endforeach
@@ -55,7 +55,7 @@
                 <div class="form-group row">
                     <label for="desig_program" hidden>Espécie</label>
                     <select id="desig_program" class="custom-select custom-select-lg ml-3 mr-3">
-                        <option selected disabled value="">Esp</option>
+                        <option selected disabled hidden>Esp</option>
                         @foreach($species as $specie)
                             <option>{{$specie->name}}</option>
                         @endforeach
@@ -64,7 +64,7 @@
                 <div class="form-group row">
                     <label for="desig_type" hidden>Tipos</label>
                     <select id="desig_type" class="custom-select custom-select-lg ml-3 mr-3">
-                        <option selected disabled value="">Tipo</option>
+                        <option selected disabled hidden>Tipo</option>
                         @foreach($types as $type)
                             <option>{{$type->name}}</option>
                         @endforeach
