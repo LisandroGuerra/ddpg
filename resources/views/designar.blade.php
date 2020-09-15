@@ -7,6 +7,13 @@
     button {
         max-width: 18rem;
     }
+
+    @media all and (min-width: 768px) {
+        .card {
+            max-width: 700px;
+        }
+    }
+
 </style>
 
 @extends('master.master')
