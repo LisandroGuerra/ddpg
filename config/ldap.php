@@ -143,7 +143,7 @@ return [
                 |
                 */
 
-                'hosts' => explode(' ', env('LDAP_HOSTS', 'ldap.forumsys.com')),
+                'hosts' => explode(' ', env('LDAP_HOSTS', 'ldap.dataprev.gov.br')),
 
                 /*
                 |--------------------------------------------------------------------------
@@ -167,7 +167,7 @@ return [
                 |
                 */
 
-                'timeout' => env('LDAP_TIMEOUT', 15),
+                'timeout' => env('LDAP_TIMEOUT', 50),
 
                 /*
                 |--------------------------------------------------------------------------
@@ -183,7 +183,7 @@ return [
                 |
                 */
 
-                'base_dn' => env('LDAP_BASE_DN', 'ou=mathematicians,dc=example,dc=com'),
+                'base_dn' => env('LDAP_BASE_DN', 'ou=INSS,dc=gov,dc=br'),
 
                 /*
                 |--------------------------------------------------------------------------
@@ -198,8 +198,8 @@ return [
                 |
                 */
 
-                'username' => env('LDAP_USERNAME', 'riemann'),
-                'password' => env('LDAP_PASSWORD', 'password'),
+                'username' => env('LDAP_USERNAME', 'lisandro.pires'),
+                'password' => env('LDAP_PASSWORD', 'Linux#2k20'),
 
                 /*
                 |--------------------------------------------------------------------------
