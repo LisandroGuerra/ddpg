@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-//    return view('home');
-    return view('login');
-});
+//Route::get('/', function () {
+////    return view('home');
+////    return view('login');
+//});
 
 // Designation Routes
 Route::get('/designar', 'DesignationController@create');
@@ -37,3 +37,5 @@ Route::get('/retificar', 'RetificationController@edit');
 
 // Reports Routes
 Route::get('/relatorio', 'ReportsController@index');
+
+Route::get('/', 'LdapController@index');
