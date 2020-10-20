@@ -1,1 +1,1 @@
-# Sistema de Controle de designações e Desligamentos dos Programas de Gestão do INSS
+# Sistema de Controle de Designações e Desligamentos de Programas de Gestão
