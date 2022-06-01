@@ -143,7 +143,7 @@ return [
                 |
                 */
 
-                'hosts' => explode(' ', env('LDAP_HOSTS', 'ldap.dataprev.gov.br')),
+                'hosts' => explode(' ', env('LDAP_HOSTS', 'ldap.yourserver.com')),
 
                 /*
                 |--------------------------------------------------------------------------
@@ -183,7 +183,7 @@ return [
                 |
                 */
 
-                'base_dn' => env('LDAP_BASE_DN', 'ou=INSS,dc=gov,dc=br'),
+                'base_dn' => env('LDAP_BASE_DN', 'ou=NAME,dc=com,dc=.'),
 
                 /*
                 |--------------------------------------------------------------------------
@@ -198,8 +198,8 @@ return [
                 |
                 */
 
-                'username' => env('LDAP_USERNAME', 'lisandro.pires'),
-                'password' => env('LDAP_PASSWORD', 'Linux#2k20'),
+                'username' => env('LDAP_USERNAME', 'your_user'),
+                'password' => env('LDAP_PASSWORD', 'your_password'),
 
                 /*
                 |--------------------------------------------------------------------------
